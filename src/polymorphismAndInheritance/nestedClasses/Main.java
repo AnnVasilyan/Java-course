@@ -10,12 +10,9 @@ interface Interface {
         }
     }
 }
-public class TestNestedClassInInterface {
+public class Main {
     public static void main(String[] args) {
         Interface.NestedClass nested = new Interface.NestedClass();
         nested.print();
     }
-}
-
-public class Main {
 }
